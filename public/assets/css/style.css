@@ -1,0 +1,159 @@
+/* GENERAL */
+
+body, html {
+    margin: 0;
+    padding:0;
+    width:100%;
+    height: 100%;
+    background-color: #fafafa;
+    font-family: Roboto,"Helvetica Neue",sans-serif;
+    overflow: hidden;
+    font-weight: 300;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 400;
+}
+
+
+.app-action {
+    display: inline-block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.inline-material-icon {
+    font-size: initial !important;
+    vertical-align: bottom;
+}
+
+/* CARD */
+
+.single-card {
+    width: auto;
+    margin: 20px auto;
+    max-width: 980px;
+}
+
+.custom-card {
+    margin: 20px;
+}
+
+.divider {
+    background-color: #cccccc;
+    height: 1px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.vertical-divider {
+    background-color: #cccccc;
+    height: 100%;
+    width: 1px;
+    margin: 0 5px;
+}
+
+.action-row {
+    border-top: 1px solid #eeeeee;
+    margin-top: 30px;
+}
+
+
+/* TABELLE */
+
+.custom-table-header {
+    font-size: 0.9em;
+    font-weight: 500;
+    height: 30px;
+}
+
+.custom-table-cell {
+    padding: 5px 4px;
+    font-size: 0.9em;
+}
+
+.custom-table-row {
+    padding: 0;
+    background: transparent;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+}
+
+.custom-table-row-detail {
+    padding: 0;
+    background: #fafafa;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    font-size: smaller;
+}
+
+.custom-table-content {
+    max-height: 300px;
+    overflow: scroll;
+}
+
+.custom-table-content-small {
+    max-height: 220px;
+    overflow: scroll;
+}
+
+
+.centered-col {
+    text-align: center;
+}
+
+.total-row {
+    padding: 0;
+    background: transparent;
+    width: 100%;
+    border-top: 2px solid black;
+}
+
+.total-header {
+    text-align: right;
+    font-weight: bold;
+}
+
+.custom-table-detail-icon-button {
+    box-shadow: none;
+    user-select: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    filter: none;
+    font-weight: normal;
+    height: auto;
+    line-height: inherit;
+    margin: 0;
+    min-width: 0;
+    padding: 0;
+    text-align: left;
+    text-decoration: none;
+}
+
+.custom-table-detail-icon-button i {
+    padding: 0 5px 0 5px;
+    background-color: transparent;
+    border: none;
+    color: #666;
+}
+
+/* VARIE */
+
+.full-width {
+    width: 100%;
+}
+.almost-full-width {
+    width: 95%;
+}
+
+.mat-dialog-container {
+    max-width: none !important;
+}
+
+.add-textarea {
+    width: 100%;
+    height: 80px;
+    resize: none;
+}

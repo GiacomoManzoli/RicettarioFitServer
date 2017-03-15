@@ -1,0 +1,9 @@
+{
+  "name" : "Ricettario",
+  "script" : "src/bin/www",
+  "env_production" : {
+    "NODE_ENV": "production"
+  }
+}
+
+
